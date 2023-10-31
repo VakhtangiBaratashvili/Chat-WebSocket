@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <input type="text" placeholder="Username" id="username">
+                <button type="button" onclick="connect();">Connect</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea id="logs" rows="10" cols="80" readonly="true"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="50" placeholder="Message" id="message">
+                <button type="button" onclick="send();">Send</button>
+            </td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>

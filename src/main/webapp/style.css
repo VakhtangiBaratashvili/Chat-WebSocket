@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"], textarea {
+    padding: 5px;
+    font-size: 15px;
+}
+
+#username {
+    width: 200px;
+}
+
+#log {
+    width: 400px;
+    height: 150px;
+}
+
+#msg {
+    width: 300px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 15px;
+}
